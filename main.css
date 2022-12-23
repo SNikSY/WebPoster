@@ -1,0 +1,19 @@
+body{
+  background-color: #0C0B0B;
+  color: white;
+  max-width: 1920px;
+}
+
+img { display: block; width: 1920px; margin: 0px auto 0;
+}
+
+div {display: block; overflow: hidden; height:100% width 1920px; margin: 0px auto 0;
+}
+
+p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 256pt; font-weight: 700;
+}
+div > img {
+  margin-top: 150px;
+}
+img
+}
