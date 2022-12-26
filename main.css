@@ -4,16 +4,71 @@ body{
   max-width: 1920px;
 }
 
-img { display: block; width: 1920px; margin: 0px auto 0;
+img { display: block; max-height:100vh; margin: 0px auto 0;
 }
 
-div {display: block; overflow: hidden; height:100% width 1920px; margin: 0px auto 0;
+div {overflow: hidden; max-width: 1920px; margin: 0px auto 0;
 }
 
 p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 256pt; font-weight: 700;
 }
-div > img {
-  margin-top: 150px;
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-img
+.heart {
+  background-image: url("images/Group 22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-color: white;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 295px;
+  height: 295px;
+  border-radius: 100%;
+}
+.atomic {
+  background-image: url("images/Group 31.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  min-height: 1080px;
+  max-height: 568px;
+}
+#first {
+  animation: first 6s infinite cubic-bezier(0,.69,1,.24);
+  padding-left: 100%;
+  white-space: nowrap;
+}
+#first:hover{
+  animation-play-state: paused;
+}
+.thrdlock {
+  display: block;
+}
+@keyframes first{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-40%)
+    }
+}
+
+.button:hover{
+  background-color: red;
+}
 }
