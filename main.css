@@ -68,6 +68,35 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 256pt; font-w
     }
 }
 
+#third {
+  animation: first 6s infinite cubic-bezier(0,.69,1,.24);
+  padding-left: 100%;
+  white-space: nowrap;
+}
+#third:hover{
+  animation-play-state: paused;
+}
+
+
+#second {
+  animation: second 6s infinite cubic-bezier(0,.69,1,.24);
+  padding-right: 100%;
+  white-space: nowrap;
+}
+#second:hover{
+  animation-play-state: paused;
+}
+@keyframes second{
+    0% {
+        transform: translateX(-60%)
+    }
+    100% {
+        transform: translateX(40%)
+    }
+}
+
+
+
 .button:hover{
   background-color: red;
 }
