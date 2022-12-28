@@ -201,17 +201,7 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 200pt; font-w
 }
 
 
-/* .atom{
-  display: block;
-  overflow: hidden;
-  background: url("images/atom_sprite.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 1985px;
-  height: 900px;
-  animation: boom 6s steps(1) infinite;
-  will-change: auto;
-} */
+
 
 .atom{
   display: block;
@@ -221,8 +211,8 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 200pt; font-w
   background-repeat: no-repeat;
   width: 1920px;
   height: 1080px;
-
 }
+
 /* @keyframes boom {
   0% {background-position: 0 0;}
   1% {background-position: -1940px 0;}
