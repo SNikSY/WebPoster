@@ -223,7 +223,7 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 200pt; font-w
   height: 1080px;
 
 }
-@keyframes boom {
+/* @keyframes boom {
   0% {background-position: 0 0;}
   1% {background-position: -1940px 0;}
   2% {background-position: -3880px 0;}
@@ -326,4 +326,4 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 200pt; font-w
 
 
 
-}
+} */
