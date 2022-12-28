@@ -213,7 +213,7 @@ p {width: 10000px; font-family: MacPawFixelDisplayBold; font-size: 200pt; font-w
   will-change: auto;
 } */
 
-.atom{
+/*.atom{
   display: block;
   overflow: hidden;
   background: url("images/atom.png");
