@@ -5,8 +5,9 @@
   p {
     font-size: calc(256px + (256 - 360) * ( (100vw - 320px) / (1920 - 320) ));
     width: 1000%;
+    }
   }
-}
+
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   article > * { width: calc(100%); }
 }
@@ -14,37 +15,92 @@
   body {
     min-width: 320px;
 }
-
-
+}
 
 article > * {
   width: calc(100%);
   }
-@media only screen and (min-width: 1224px) {
-  /* Desktop */
+@media only screen and (min-width: 1440px) and (max-device-width: 1920px) {
+  .heart{
+    background-size: 100vw auto;
+  }
+  .anima{
+    background-size: 100vw auto;
+  }
+  .station{
+    background-size: 95vw auto;
+    margin-top: -11vw;
+  }
+  .waves{
+    margin-bottom: -2475px;
+  }
+  .thrdlock{
+    margin-top: -2512px;
+  }
+
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* iPad */
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1440px) {
+  .heart{
+    background-size: 130vw auto;
+  }
+  .anima{
+    background-size: 130vw auto;
+  }
+  .station{
+    background-size: 100vw auto;
+    margin-top: -29vw;
+  }
+  .waves{
+    margin-bottom: -2875px;
+  }
+  .thrdlock{
+    margin-top: -2512px;
+  }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* iPad Portrait */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1280px) {
+  .heart{
+    background-size: 130vw auto;
+  }
+  .anima{
+    background-size: 130vw auto;
+  }
+  .station{
+    background-size: 100vw auto;
+    margin-top: -37vw
+  }
+  .waves{
+    margin-bottom: -2875px;
+  }
+  .thrdlock{
+    margin-top: -2512px;
+  }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* iPad Landscape */
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 834px) {
+  .heart{
+    background-size: 130vw auto;
+  }
+  .anima{
+    background-size: 130vw auto;
+  }
+  .station{
+    background-size: 100vw auto;
+    margin-top: -37vw
+  }
+  .waves{
+    margin-bottom: -2875px;
+  }
+  .thrdlock{
+    margin-top: -2512px;
+  }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* iPhone */
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  /* iPhone Portrait */
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  /* iPhone Landscape */
+}
+  }
+}
+}
 }
 }
